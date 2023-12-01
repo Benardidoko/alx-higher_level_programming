@@ -1,0 +1,104 @@
+Question #0
+What do these lines print?
+
+>>> def my_function(counter):
+>>>     print("Counter: {}".format(counter))
+>>> 
+>>> my_function(12)
+
+Counter: 12
+
+
+Counter: counter
+
+
+Counter: c
+
+Question #1
+What do these lines print?
+
+>>> def my_function(counter=89):
+>>>     print("Counter: {}".format(counter))
+>>> 
+>>> my_function()
+
+Counter: 101
+
+
+Counter: 12
+
+
+Counter: 89
+
+Question #2
+What do these lines print?
+
+>>> def my_function():
+>>>     print("In my function")
+>>> 
+>>> my_function
+
+“In my function”
+
+
+Nothing
+
+
+function my_function at …
+
+
+In my function
+
+Question #3
+What do these lines print?
+
+>>> def my_function(counter=89):
+>>>     return counter + 1
+>>> 
+>>> print(my_function())
+
+1
+
+
+891
+
+
+90
+
+
+89
+
+Question #4
+What do these lines print?
+
+>>> def my_function(counter=89):
+>>>     print("Counter: {}".format(counter))
+>>> 
+>>> my_function(12)
+
+Counter: 101
+
+
+Counter: 12
+
+
+Counter: 89
+
+Question #5
+What do these lines print?
+
+>>> def my_function():
+>>>     print("In my function")
+>>> 
+>>> my_function()
+
+“In my function”
+
+
+Nothing
+
+
+function my_function at …
+
+
+In my function
